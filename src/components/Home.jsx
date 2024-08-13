@@ -43,7 +43,7 @@ const Home = () => {
           passionate in <span className="text"></span>
         </h4>
         <div className="img">
-          <img src="./src/image/img.jpg" alt="Megavardhini" className="responsive" />
+          <img src="https://img.freepik.com/free-photo/3d-portrait-people_23-2150793856.jpg?t=st=1723549872~exp=1723553472~hmac=1e56962372010a48c950c67a8ab9424eeb81837d829e50e0d0cde5aa38a079f7&w=826" alt="Megavardhini" className="responsive" />
         </div>
         <div className="home-sci">
           <a href="https://www.linkedin.com/in/megavardhini-p/" style={{ '--i': 7 }} target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin'></i></a>
