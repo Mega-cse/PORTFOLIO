@@ -606,7 +606,7 @@ body {
 
 /* Service*/
 
-#Services{
+/* #Services{
   background-color: #000;
 }
 
@@ -619,12 +619,12 @@ body {
 
 .sub-title span {
   color: #0ef;
-}
+} */
 
 .prj-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-  grid-gap: 40px;
+  grid-gap: 50px;
   margin-top: 50px;
 }
 
@@ -642,6 +642,7 @@ body {
 
 .container {
   padding: 50px;
+  height: 100px;
 
 }
 

@@ -1,52 +1,29 @@
-/* src/components/About.css */
-
-.about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-  }
-  
-  /* .about-img {
-    flex: 1;
-    padding-right: 20px;
-  } */
-  
+/* 
   .abt-res {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 70%; 
+    height: 70%; 
+    border-radius: 40%; 
+    object-fit: cover; 
+    
   }
+ 
   
   .about-text {
     width: 100%;
-    max-width: 800px; /* adjust this value to your desired max width */
+    max-width: 700px; 
     margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .about-text h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .about-text p {
-    font-size: 1.125rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  .abtbtn-box {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #007bff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .abtbtn-box:hover {
-    background-color: #0056b3;
-  }
-  
+    padding: 10px;
+  } */
+  .about-text {
+    width: 100%;
+    max-width: 700px; 
+    margin-right: 60px auto 0 auto; /* add this line */
+    padding: 10px;
+}
+.abt-res {
+  width: 70%; 
+  height: 70%; 
+  border-radius: 30%; 
+  object-fit: cover; 
+  margin-left: 100px; /* add this line */
+}

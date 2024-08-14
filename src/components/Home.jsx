@@ -7,7 +7,7 @@ const Home = () => {
     useEffect(() => {
         // Initialize Typed.js
         const typed = new Typed(".text", {
-          strings: ["Full stack developer","Front end developer", "Fresher"],
+          strings: ["Full stack developement","Front end developement", "and am a Fresher"],
           typeSpeed: 100,
           backSpeed: 100,
           backDelay: 1000,
@@ -39,8 +39,9 @@ const Home = () => {
         <h3>Hello, It's Me</h3>
         <h1>MEGAVARDHINI P</h1>
         <h4 style={{ '--i': 6 }}>
+          
           I'm an Engineering student who is<br />
-          passionate in <span className="text"></span>
+          passionate about <span className="text"></span>
         </h4>
         <div className="img">
           <img src="https://img.freepik.com/free-photo/3d-portrait-people_23-2150793856.jpg?t=st=1723549872~exp=1723553472~hmac=1e56962372010a48c950c67a8ab9424eeb81837d829e50e0d0cde5aa38a079f7&w=826" alt="Megavardhini" className="responsive" />
