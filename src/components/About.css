@@ -14,16 +14,72 @@
     margin: 0 auto;
     padding: 10px;
   } */
-  .about-text {
+  .about {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
     width: 100%;
-    max-width: 700px; 
-    margin-right: 60px auto 0 auto; /* add this line */
-    padding: 10px;
-}
-.abt-res {
-  width: 70%; 
-  height: 70%; 
-  border-radius: 30%; 
-  object-fit: cover; 
-  margin-left: 100px; /* add this line */
-}
+    min-height: 100vh;
+    padding: 70px;
+    align-items: center;
+  }
+  
+  .about-text {
+    position: relative; /* To position the image absolutely inside it */
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the text block */
+  }
+  
+  .about-img {
+    position: absolute; /* Position the image inside the text */
+    top: 20;
+    left: 50;
+    width: 150px; /* Size of the image */
+    height: 150px; /* Size of the image */
+    border-radius: 50%; /* Makes the image round */
+    overflow: hidden; /* Ensures the image fits within the circle */
+  }
+  
+  .abt-res {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-text h2 {
+    font-size: 60px;
+    letter-spacing: 2px;
+  }
+  
+  .about-text h2 span {
+    color: #0ef;
+  }
+  
+  .about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-top: 10px; /* Adjust margin to account for image */
+    margin-bottom: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .abtbtn-box {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .abtbtn-box:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+  }
+  
