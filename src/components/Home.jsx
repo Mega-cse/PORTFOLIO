@@ -51,9 +51,11 @@ const Home = () => {
           <a href="https://github.com/Mega-cse" style={{ '--i': 10 }} target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
           
         </div>
-        <a href="https://drive.google.com/file/d/1X_nsMlvJEu39X-214Ig-EALMMHrzGySv/view?usp=drivesdk" style={{ '--i': 11 }} className="btn-box" target="_blank" rel="noopener noreferrer">Download Resume</a>
+        <a href="https://drive.google.com/file/d/1E0ytBZWGIlI6QLJ8F-qT5qoFtPT--d-F/view?usp=sharing" style={{ '--i': 11 }} className="btn-box" target="_blank" rel="noopener noreferrer">Download Resume</a>
       </div>
+      
     </section>
+    
   );
 };
 
