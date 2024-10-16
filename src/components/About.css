@@ -1,27 +1,27 @@
 .about {
   background-color: black;
-  display: grid;
-  grid-template-columns: 1fr,1fr;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
   width: 100%;
   min-height: 100vh;
   padding: 40px;
-  align-items: center;
 }
 
 .about-text {
-  position: relative;
+  display: flex; /* Use flex to position items side by side */
+  flex-direction: column; /* Default to column layout */
+  align-items: center; /* Center items horizontally */
   max-width: 900px;
   margin: 0 auto;
+  text-align: center; /* Center text for better appearance */
 }
 
 .about-img {
-  position: absolute;
-  top: 250px;
-  left: 50px;
-  width: 150px;
+  width: 150px; /* Adjust size */
   height: 150px;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: hidden; 
+  margin-bottom: 20px; /* Add margin below the image */
 }
 
 .abt-res {
@@ -32,12 +32,10 @@
 .about-text h2 {
   font-size: 60px;
   letter-spacing: 2px;
-  padding-top: 60px;
 }
 
 .about-text h2 span {
   color: #0ef;
-  
 }
 
 .about-text p {
@@ -75,47 +73,35 @@
     padding: 20px;
   }
   .about-text {
+    flex-direction: column; /* Stack elements vertically on small screens */
     max-width: 100%;
-    top: 10px;
-   
   }
   .about-img {
-    position: relative;
-    top: 150px;
-    left: 0;
-    width: 150px;
-    height: 150px;
-    margin: 20px auto;
+    width: 120px; /* Adjust size for smaller screens */
+    height: 120px;
+    margin-bottom: 20px; /* Maintain margin below the image */
   }
   .about-text h2 {
-    font-size: 10px;
-
-    
+    font-size: 30px; /* Adjust heading size */
   }
   .about-text p {
     font-size: 18px;
-  
   }
 }
 
 @media (max-width: 680px) {
-  .about {
-    padding: 20px;
+  .about-text {
+    align-items: center; /* Center text on small screens */
   }
   .about-text h2 {
-    font-size: 30px;
-    padding-top: 7px;
+    font-size: 25px; /* Adjust for smaller screens */
   }
   .about-img {
-    position: relative;
-     width: 100px;
+    width: 100px; /* Further adjust for smaller screens */
     height: 100px;
-    bottom: 50%;
-    
   }
   .about-text p {
     font-size: 16px;
-    padding-bottom: 90px;
   }
   .abtbtn-box {
     padding: 10px 20px;

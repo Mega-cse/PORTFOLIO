@@ -23,7 +23,7 @@ const Skills = () => {
                 <span></span>
               </div>
             </div>
-     
+
             <div className="bar"><i className='bx bxl-javascript' style={{ color: '#c95d2e' }}></i>
               <div className="info">
                 <span>JavaScript <span className="addjavascript"></span></span>
@@ -32,7 +32,7 @@ const Skills = () => {
                 <span></span>
               </div>
             </div>
-            
+
             <div className="bar"><i className='bx bxl-react' style={{ color: '#c95d2e' }}></i>
               <div className="info">
                 <span>React<span className="addreact"></span></span>
@@ -41,6 +41,17 @@ const Skills = () => {
                 <span></span>
               </div>
             </div>
+            <div className="bar">
+              <i className='bx bxl-nodejs' style={{ color: '#c95d2e' }}></i>
+              <div className="info">
+                <span>Node<span className="addreact"></span></span>
+              </div>
+              <div className="progress-line node">
+                <span></span>
+              </div>
+            </div>
+
+
 
           </div>
         </div>
