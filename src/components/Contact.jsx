@@ -9,7 +9,7 @@ const Contact = () => {
         <h2>Contact <span>Me</span></h2>
         <h4>Let's Work Together</h4>
         <div className="contact-list">
-        <li><i className='bx bxs-send'></i><a href="mailto:megavardhini1958@gmail.com">megavardhini1958@gmail.com</a></li>        
+        <li><i className='bx bxs-send'></i><a href="mailto:pmegavardhini@gmail.com">pmegavardhini@gmail.com</a></li>        
          <li><i className="bx bxs-phone-call"></i>7200810835</li>
         </div>
         <div className="contact-icons">
