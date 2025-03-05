@@ -20,7 +20,7 @@ const About = () => {
           My goal is to drive innovation and grow as a versatile developer in the tech industry.
         </p>
         <a
-          href="https://drive.google.com/file/d/1JXOpNTQE5C8rdEtYtRasfN9fgsQKDDL8/view"
+          href="https://drive.google.com/file/d/1Hd2wOut4J6HlpRfYPKkriioobKqIGuS-/view?usp=sharing"
           className="abtbtn-box"
           target="_blank"
           rel="noopener noreferrer"
